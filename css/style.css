@@ -208,4 +208,7 @@ footer .button-save:hover {
     background: #06ac50;
 }
 
+input:invalid {
+    border: 1px solid red;
+}
 
