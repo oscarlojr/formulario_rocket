@@ -4,10 +4,10 @@
     padding: 0;
 }
 body {    
-    background: #E5E5E5;
+    background: #d9d9d9;
 }
 
-body, input, button, select, textarea {
+body, input, select, textarea {
     font-family: 'Poppins', sans-serif;    
 }
 
@@ -55,7 +55,7 @@ header p {
 form {
     margin-top: 38px;
     background: #fafafc;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     min-height: 300px;
     padding: 64px;
 
@@ -182,5 +182,30 @@ fieldset legend {
     outline: 2px solid black;
 }
 
+footer {
+    background: #F0F0F4;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 64px;
+    margin-bottom: 91px;
+}
+
+footer .button-save { 
+    background: #04D361;
+
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-size: 16px;
+
+    border: 0;
+    height: 56px;
+}
+
+footer .button-save:hover {
+    background: #06ac50;
+}
 
 
